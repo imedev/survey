@@ -119,12 +119,8 @@ export default defineComponent({
             h(Radar, {
                 chartData,
                 chartOptions,
-                chartId: props.chartId,
                 width: props.width,
-                height: props.height,
-                cssClasses: props.cssClasses,
-                styles: props.styles,
-                plugins: props.plugins
+                height: props.height
             })
     }
 })
